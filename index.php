@@ -137,8 +137,8 @@
 								<div id="social-link">
 									<a href="https://www.linkedin.com/in/samuel-joly-170a38156/"><img src="Images/linkedIn.png"/></a>
 									<a href="https://github.com/samuel-joly"><img src="Images/gitHub.png"/></a>
-									<a href=""><img src="Images/steam.png"/></a>
-									<a href=""><img src="Images/facebook.png" style="transform:scale(1.35);position:relative;bottom:0.5px;"/></a>
+									<a href="https://steamcommunity.com/profiles/76561198100216375/"><img src="Images/steam.png"/></a>
+									<a href="https://www.facebook.com/samuel.joly.756"><img src="Images/facebook.png" style="transform:scale(1.35);position:relative;bottom:0.5px;"/></a>
 								</div>
 							</div>
 							
