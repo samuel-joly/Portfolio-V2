@@ -60,12 +60,12 @@
 							<h2>Mon cursus personnel et scolaire</h2>
 							<span>
 								<div id="cv-article-pdf">
-									<a href="CVJOLYSamuel.pdf" class="cv-article-title">CV en PDF</a>
 									<a href="CVJOLYSamuel.pdf"><div id="cv-pdf-img"></div></a>
+									<a href="CVJOLYSamuel.pdf" class="cv-article-title">CV en PDF</a>
 								</div>
-								<div>
-									<a href="CVJOLYSamuel.odt">CV en ODT</a>
+								<div id="cv-article-odt">
 									<a href="CVJOLYSamuel.odt"><div id="cv-odt-img"></div></a>
+									<a href="CVJOLYSamuel.odt">CV en ODT</a>
 								</div>
 							</span>
 						</article>
@@ -162,11 +162,11 @@
 								</div>
 								
 								<div id="social-link">
-									<a href="https://www.linkedin.com/in/samuel-joly-170a38156/"><img src="Images/linkedIn.png"/></a>
-									<a href="https://github.com/samuel-joly"><img src="Images/gitHub.png"/></a>
-									<a href="https://steamcommunity.com/profiles/76561198100216375/"><img src="Images/steam.png"/></a>
-									<a href="Azefortwo#3814"><img src="Images/Discord.png"/></a>
-									<a href="https://laplateforme.io"><img src="Images/plateforme.png"/></a>
+									<a target="blank" href="https://www.linkedin.com/in/samuel-joly-170a38156/"><img src="Images/linkedIn.png"/></a>
+									<a target="blank" href="https://github.com/samuel-joly"><img src="Images/gitHub.png"/></a>
+									<a target="blank" href="https://steamcommunity.com/profiles/76561198100216375/"><img src="Images/steam.png"/></a>
+									<a target="blank" href="Azefortwo#3814"><img src="Images/Discord.png"/></a>
+									<a target="blank" href="https://laplateforme.io"><img src="Images/plateforme.png"/></a>
 									<a href="contact.php" id="contact-link">
 										<span id="contact-link-case">?</span>
 										<p id="contact-link-text">

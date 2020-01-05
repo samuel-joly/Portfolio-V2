@@ -4,17 +4,18 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<title>Portfolio - Joly Samuel</title>
+		<title>CV - Joly Samuel</title>
 	</head>
 
 	<body>
 		<header>
-			<a href="index.php" id="header-title">Samuel Joly<br/><span>Portfolio<span></a>
+			<a href="index.php" id="header-title">Samuel Joly<br/><span>Portfolio</span></a>
 			<nav>
 				<a href="realisation.php">Réalisations</a>
 				<a href="contact.php">Contact</a>
 				<a href="livreOr.php">Livre d'Or</a>
 				<a href="curriculum.php">CV</a>
+				<a href="index.php"><div></div></a>
 			</nav>
 		</header>
 		
