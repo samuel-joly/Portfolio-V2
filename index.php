@@ -9,7 +9,7 @@
 
 	<body>
 		<header>
-			<a href="index.php" id="header-title">Samuel Joly<br/><span>Portfolio<span></a>
+			<a href="index.php" id="header-title">Samuel Joly<br/><span>Portfolio</span></a>
 			<nav>
 				<a href="realisation.php">Réalisations</a>
 				<a href="contact.php">Contact</a>
@@ -58,7 +58,16 @@
 							
 						<article id="cv-article">
 							<h2>Mon cursus personnel et scolaire</h2>
-							<p class="normal-font"></p>
+							<span>
+								<div id="cv-article-pdf">
+									<a href="CVJOLYSamuel.pdf" class="cv-article-title">CV en PDF</a>
+									<a href="CVJOLYSamuel.pdf"><div id="cv-pdf-img"></div></a>
+								</div>
+								<div>
+									<a href="CVJOLYSamuel.odt">CV en ODT</a>
+									<a href="CVJOLYSamuel.odt"><div id="cv-odt-img"></div></a>
+								</div>
+							</span>
 						</article>
 					
 					</div>					

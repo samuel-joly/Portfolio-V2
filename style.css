@@ -328,6 +328,61 @@ header nav a:nth-child(1):before
 	border-right:1px solid;
 	border-image:linear-gradient(to top, transparent, black, transparent)  1 100%;
 }
+
+/*---------------------------------------------CV---------------------------------------------*/
+#cv-article a
+{
+	color:black;
+	text-decoration:none;
+}
+
+#cv-article span
+{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+#cv-article span>div
+{
+	margin-top:20px;
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+}
+
+#cv-pdf-img
+{
+	width:50px;
+	height:50px;
+	margin:auto;
+	margin-top:4px;
+	background-image:url("Images/pdfCV.png");
+	background-size:cover;
+	transition:all 0.4s ease;
+}
+
+#cv-pdf-img:hover
+{
+	background-image:url("Images/pdfCV1.png");
+}
+
+#cv-odt-img
+{
+	width:50px;
+	height:55px;
+	border-radius:5px;
+	margin:auto;
+	background-image:url("Images/odt.png");
+	background-size:cover;
+	transition:all 0.4s ease;
+}
+
+#cv-odt-img:hover
+{
+	background-image:url("Images/odt1.png");
+}
+
+
 /*---------------------------------------------LIVRE-OR---------------------------------------------------------*/
 
 #livre-or h2
