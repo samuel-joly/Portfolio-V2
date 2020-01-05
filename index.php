@@ -21,7 +21,7 @@
 		<main>
 			<div id="mainContainer">
 				
-				<div class="grid-item two-long first-row" id="contact">
+				<div class="grid-item two-long" id="contact">
 				
 					<div class="cover">
 						<div class="title-zone">
@@ -32,20 +32,32 @@
 						<article>
 							<h2>Pour toute demande de contact :</h2>
 							<p class="normal-font">Vous pouvez me contacter par <a href="contact.php">Ici</a> ou par mail sur <a href="mailto:samueljoly0@gmail.com">samueljoly0@gmail.com</a></p>
+							<div id="contact-dispo">
+								<ul id="contact-dispo-left">
+									<li class="normal-font">Réponse ASAP</li>
+									<li class="normal-font">Dispo 24/24-7/7</li>
+								</ul>
+								<ul>
+									<li>Actuellement en recherche d'un projet pro</li>
+									<li>Si vous voulez en parler <a href="contact.php">faites le moi savoir</a></li>
+								</ul>
+							</div>
 						</article>
 					</div>
 					
 				</div>
 				
-				<div class="grid-item first-row" id="curriculum">
+				<div class="grid-item" id="curriculum">
 
 					<div class="cover">
-
-						<h1>Curriculum Vitæ</h1>
+						<div class="title-zone">
+							<h1>Curriculum Vitæ</h1>
+							<a href="curriculum.php" class="a-btn">Par ici</a>
+						</div>
+							
 						<article id="cv-article">
-							<h2>Mon cursus</h2>
-							<p class="normal-font"> Mes histoires professionnelles et universitaires</p>
-							<a href="curriculum.php" class="a-btn" id="cv-btn">Par ici</a>
+							<h2>Mon cursus personnel et scolaire</h2>
+							<p class="normal-font"></p>
 						</article>
 					
 					</div>					
@@ -60,28 +72,33 @@
 						</div>
 						
 						<article>
-							<h2>Les derniers messages</h2>
+							<h2 id="livre-or-title">Les derniers messages</h2>
 							
 							<div id="livre-or-commentaires">
 							
 								<div class="comm"> 
-									<p class="auteur">De <span>Samuel</span> le <span>16/12/19</span></p>
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
 									<p class="commentaire">Je suis et resterais le premier commentaire</p>
 								</div>
 								
 								<div class="comm"> 
-									<p class="auteur">De <span>Samuel</span> le <span>16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le deuxième commentaire</p>
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
+									<p class="commentaire">Je suis et resterais le premier commentaire</p>
 								</div>
 								
 								<div class="comm"> 
-									<p class="auteur">De <span>Samuel</span> le <span>16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le troixième commentaire</p>
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
+									<p class="commentaire">Je suis et resterais le premier commentaire</p>
 								</div>
 								
 								<div class="comm"> 
-									<p class="auteur">De <span>Samuel</span> le <span>16/12/19</span></p>
-									<p class="commentaire">Je suis le commentaire caché</p>
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
+									<p class="commentaire">Je suis et resterais le premier commentaire</p>
+								</div>
+								
+								<div class="comm"> 
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
+									<p class="commentaire">Je suis et resterais le premier commentaire</p>
 								</div>
 							
 							</div>
@@ -95,12 +112,12 @@
 					
 					<div class="cover">
 						<div class="title-zone">
-							<h1>Réalisation<br/>Perso</h1>
+							<h1>Réalisation Perso</h1>
 							<a href="realisation.php?perso=true" class="a-btn">Par ici</a>
 						</div>
 						
 						<article>
-							<h2 class="realisation-p">Mes réalisation extra-scolaire</h2>
+							<h2>Mes réalisation extra-scolaire :</h2>
 						</article>
 					</div>
 					
@@ -109,11 +126,11 @@
 				<div class="grid-item" id="real-etude">
 					<div class="cover">						
 						<div class="title-zone">
-							<h1>Réalisation<br/>Etudes</h1>
+							<h1>Réalisation Etudes</h1>
 							<a href="realisation.php?etudes=true" class="a-btn">Par ici</a>
 						</div>
 						<article>
-							<h2 class="realisation-p">Mes réalisation chez LaPlateforme_</h2>
+							<h2 >Mes réalisation à LaPlateforme :</h2>
 						</article>
 					</div>
 				</div>
@@ -138,24 +155,38 @@
 									<a href="https://www.linkedin.com/in/samuel-joly-170a38156/"><img src="Images/linkedIn.png"/></a>
 									<a href="https://github.com/samuel-joly"><img src="Images/gitHub.png"/></a>
 									<a href="https://steamcommunity.com/profiles/76561198100216375/"><img src="Images/steam.png"/></a>
-									<a href="https://www.facebook.com/samuel.joly.756"><img src="Images/facebook.png" style="transform:scale(1.35);position:relative;bottom:0.5px;"/></a>
+									<a href="Azefortwo#3814"><img src="Images/Discord.png"/></a>
+									<a href="https://laplateforme.io"><img src="Images/plateforme.png"/></a>
+									<a href="contact.php" id="contact-link">
+										<span id="contact-link-case">?</span>
+										<p id="contact-link-text">
+											<img src="Images/contactarrow.png"/>
+											Devenons partenaires
+										</p>
+									</a>
 								</div>
 							</div>
 							
 							<div id="infos-bottom">
 								<ul>
-									<li><strong>Je veux :</strong> apprendre.</li>
-									<li><strong>Je sais :</strong> apprendre de nouvelles techs.</li>
-									<li><strong>Je suis :</strong> appliqué et curieux dans mon travail.</li>
+									<li><strong>Je veux :</strong> Dévelloper mes connaissances dans le domaine professionnel.</li>
+									<li><strong>Je sais :</strong> Apprendre de mes expériences et de mes pairs.</li>
+									<li><strong>Je suis :</strong> Curieux et motivé dans mon travail.</li>
+									<li><strong>Je dois :</strong> Me diversifier dans les champs d'application de la progammation</li>
+									<li><strong>Je serais:</strong> Ravis d'apprendre a votre cotés.</li>
 								<ul>
 							</div>
 						</article>
 					</div>
 				</div>
 				
-				<div class="grid-item border"></div>
-				<div class="grid-item border"></div>
-				<div class="grid-item two-long border"></div>
+				<div class="grid-item" id="actualite">
+					<div class="cover">
+						<h1>Travail en cour</h1>
+						<article>
+						</article>
+					</div>
+				</div>
 			</div>
 		</main>
 
