@@ -164,7 +164,6 @@ header nav a:nth-child(1):before
 .grid-item  article a:visited
 {
 	color:black;
-	text-decoration:black;
 }
 
 .normal-font
@@ -472,23 +471,26 @@ header nav a:nth-child(1):before
 
 #contactMain
 {	
+	justify-content:center;
 	flex-direction:column;
-	width:40%;
+	align-items:stretch;
 	margin:auto;
+	width:40%;
 }
 
 #contact-form
 {
-	height:500px;
-	padding:3px;
+	margin-left:-10px;
+	margin-top:10px;
 	display:flex;
 	flex-direction:column;
 	justify-content:space-between;
 }
 
-.inputZone,#name-zone
+
+#contactTitle h1
 {
-	margin:10px;
+	text-align:center;
 }
 
 .inputZone label
@@ -509,7 +511,6 @@ header nav a:nth-child(1):before
 {
 	width:600px;
 	max-width:600px;
-	max-height:500px;
 	
 	background:rgba(0,0,0,0.7);
 	
@@ -529,7 +530,11 @@ header nav a:nth-child(1):before
 	height:40px;
 }
 
-.absol-input:focus:not(textarea)
+#name-zone
+{
+	padding-bottom:20px;
+}
+.absol-input:focus
 {
 	background:rgba(0,0,0,0.5);
 }
@@ -541,7 +546,7 @@ header nav a:nth-child(1):before
 
 textarea:focus~label
 {
-	transform:translate(0px, -5px);
+	transform:translate(0px, -4px);
 }
 
 .inputZone input[type="submit"], .inputZone input[type="reset"]
@@ -572,7 +577,6 @@ textarea:focus~label
 {
 	display:flex;
 	justify-content:space-between;
-	margin-top:-10px;
 	width:600px;
 }
 
@@ -606,34 +610,24 @@ textarea:focus~label
 	background:rgba(0,0,0,0.5);
 }
 
-#name-input
-{
-	transform:translate(-60px,-37px);
-}
-
 .name~label
 {
-	transform:translate(-60px, -37px);
+	transform:translate(-20px, -37px);
 }
 
 .name:focus~label
 {
-	transform:translate(-10px, -67px);
-}
-
-.name:focus~#name-input
-{
-	transform:translate(-15px,-67px);
-}
-
-#mail
-{
-	margin-bottom:-5px;
+	transform:translate(-20px,-67px);
 }
 
 textarea:focus
 {
 	background:rgba(0,0,0,0.5);
+}
+
+textarea
+{
+	margin-top:-20px;
 }
 
 
@@ -686,7 +680,53 @@ textarea:focus
 	}
 	
 	
-}
+	
+	
+	#contactMain{
+		margin:auto;
+		width:500px;
+	}
+	
+	#contactTitle
+	{
+		margin:auto;
+		margin-bottom:-20px;
+		margin-top:-20px;
+	}
+	
+	#contactTitle h1 {
+		margin:auto;
+	}
+	
+	.absol-input {
+		width:500px;
+	}
+	
+	#name-zone {
+		width:500px;
+	}
+	.name{
+		width:250px;
+	}
+	
+	.inputZone label {
+		transform:translate(-20px,-35px);
+	}
+	
+	.absol-input:focus:not(textarea)~label
+	{
+		transform:translate(-20px, -70px);
+	}
+
+	textarea:focus~label
+	{
+		transform:translate(-20px, -4px);
+	}
+	
+	.controls {
+		width:500px;
+	}
+
 @media only screen and (min-height:500px){
 		body {
 		background-size:100% 320%;

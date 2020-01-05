@@ -35,7 +35,7 @@
 					
 					<div class="inputZone">
 						<input type="text" name="nom" class="name"/>
-						<label for="nom" class="label-move" id="name-input">Nom</label>
+						<label for="nom" class="label-move">Nom</label>
 					</div>
 				
 				</div>
