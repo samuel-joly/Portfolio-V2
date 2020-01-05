@@ -15,6 +15,7 @@
 				<a href="contact.php">Contact</a>
 				<a href="livreOr.php">Livre d'Or</a>
 				<a href="curriculum.php">CV</a>
+				<a href="index.php"><div></div></a>
 			</nav>
 		</header>
 
