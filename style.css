@@ -720,7 +720,7 @@ textarea
 	align-items:center;
 	width:50%;
 	margin:auto;
-	margin-top:200px;
+	margin-top:300px;
 }
 
 #curri-title
@@ -737,35 +737,24 @@ textarea
 {
 	margin:3px;
 	height:18px;
+	
+}
+
+.curri-w
+{
+	color:white;
 }
 
 #curri-main article a
 {
-	color:black;
+	color:white;
 	text-decoration:none;
 	transition:all 0.2s ease;
 }
 
 #curri-main article a:hover
 {
-	color:white;
-}
-
-#curri-adresse:before
-{
-	content:"";
-	height:0.5px;
-	width:316px;
-	position:absolute;
-	background:black;
-	transition:all 0.2s ease;
-	margin-top:15px;
-}
-
-#curri-adresse:hover:before
-{
-	margin-top:2px;
-	background:white;
+	color:black;
 }
 
 #curri-mail:before
@@ -774,16 +763,16 @@ textarea
 	height:0.5px;
 	width:161px;
 	position:absolute;
-	background:black;
+	background:white;
 	transition:all 0.2s ease;
-	margin-top:17px;
+	margin-top:16px;
 }
 
 
 #curri-mail:hover:before
 {
-	margin-top:1px;
-	background:white;
+	margin-top:2px;
+	background:black;
 }
 
 
@@ -806,6 +795,7 @@ textarea
 	font-size:30px;
 	border-bottom:2px solid;
 	border-image:linear-gradient(to right, black,transparent) 100% 1;
+	color:black;
 }
 
 #curri-formation .curri-sub-title
@@ -851,32 +841,32 @@ textarea
 
 #blocnote
 {
-	background-image:url("Images/blocnote.png");
+	background-image:url("Images/blocnote1.png");
 }
 
 #bc:hover #blocnote
 {
-	background-image:url("Images/blocnote1.png");
+	background-image:url("Images/blocnote.png");
 }
 
 #agenda
 {
-	background-image:url("Images/agenda.png");
+	background-image:url("Images/agenda1.png");
 }
 
 #ag:hover #agenda
 {
-	background-image:url("Images/agenda1.png");
+	background-image:url("Images/agenda.png");
 }
 
 #password-manager
 {
-	background-image:url("Images/password.png");
+	background-image:url("Images/password1.png");
 }
 
 #pw:hover #password-manager
 {
-	background-image:url("Images/password1.png");
+	background-image:url("Images/password.png");
 }
 
 #sushi
@@ -891,46 +881,46 @@ textarea
 
 #portfolio
 {
-	background-image:url("Images/portfolio1.png");
+	background-image:url("Images/portfolio.png");
 	height:50px;
 }
 
 #po:hover #portfolio
 {
-	background-image:url("Images/portfolio.png");
+	background-image:url("Images/portfolio1.png");
 }
 
 #curri-github
 {
-	background-image:url("Images/gitHub.png");
+	background-image:url("Images/gitHub1.png");
 }
 
 #gi:hover #curri-github
 {
-	background-image:url("Images/gitHub1.png");
+	background-image:url("Images/gitHub.png");
 }
 
 #curri-livreor
 {
-	background-image:url("Images/livreor.png");
+	background-image:url("Images/livreor1.png");
 	width:50px;
 }
 
 #li:hover #curri-livreor
 {
-	background-image:url("Images/livreor1.png");
+	background-image:url("Images/livreor.png");
 }
 
 #curri-bde
 {
-	background-image:url("Images/plateforme.png");
+	background-image:url("Images/plateforme1.png");
 	width:60px;
 	height:50px;
 }
 
 #bde:hover #curri-bde
 {
-	background-image:url("Images/plateforme1.png");
+	background-image:url("Images/plateforme.png");
 }
 
 #curri-download
@@ -940,10 +930,19 @@ textarea
 	margin-bottom:30px;
 }
 
+#curri-download a
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	font-size:20px;
+	text-align:center;
+}
 
 #download-pdf
 {
-	background-image:url("Images/pdfCV.png");
+	background-image:url("Images/pdfCV1.png");
 	background-size:cover;
 	width:90px;
 	height:90px;
@@ -952,12 +951,12 @@ textarea
 
 #download-pdf:hover
 {
-	background-image:url("Images/pdfCV1.png");
+	background-image:url("Images/pdfCV.png");
 }
 
 #download-odt
 {
-	background-image:url("Images/odt.png");
+	background-image:url("Images/odt1.png");
 	background-size:cover;
 	width:70px;
 	height:90px;
@@ -966,12 +965,12 @@ textarea
 
 #download-odt:hover
 {
-	background-image:url("Images/odt1.png");
+	background-image:url("Images/odt.png");
 }
 
 #image-git
 {
-	background-image:url("Images/gitHub.png");
+	background-image:url("Images/gitHub1.png");
 	background-size:cover;
 	width:90px;
 	height:90px;
@@ -980,19 +979,19 @@ textarea
 
 #image-git:hover
 {
-	background-image:url("Images/gitHub1.png");
+	background-image:url("Images/gitHub.png");
 }
 
 #curri-res
 {
-	background-image:url("Images/res1.png");
+	background-image:url("Images/res.png");
 	width:60px;
 	height:50px;
 }
 
 #res:hover #curri-res	
 {
-	background-image:url("Images/res.png");
+	background-image:url("Images/res1.png");
 }
 
  #curri-prog 
@@ -1043,9 +1042,6 @@ textarea
 	#mainContainer {
 		grid-template-columns:auto auto ;
 	}
-	
-	
-	
 	
 	#contactMain{
 		margin:auto;

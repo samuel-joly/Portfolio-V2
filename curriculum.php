@@ -25,7 +25,7 @@
 			<article id="curri-presentation">
 				<p>JOLY Samuel</p>
 				<p>9 septembre 1996 – 24 ans</p>
-				<p><a id="curri-adresse" target="blank" href="https://www.openstreetmap.org/directions?route=%3B43.2802889%2C5.49794#map=15/43.2802889/5.49794">27 boulevard Frédéric Chevillon 13011 Marseille</a></p>
+				<p>27 boulevard Frédéric Chevillon 13011 Marseille</p>
 				<p>Tel: 0628766072.</p>
 				<p>Mail: <a id="curri-mail" href="mailto:samueljoly0@gmail.com">samueljoly0@gmail.com</a></p>
 			</article>
@@ -35,15 +35,21 @@
 				<p>Baccalauréat série Scientifique (2014) - Marcel-Pagnol</p>
 				<p>L1 Psychologie (2015) - Faculté de lettres Aix-en-Provence</p>
 				<p>L1 Psychologie (2016) - Faculté de lettres Aix-en-Provence</p>
-				<p>Web developpement (2019) - LaPlateforme_ Marseille - ACTUEL</p>
+				<p>Web developpement (2019) - <span class="curri-w">LaPlateforme_ Marseille - En cour</span></p>
+				
+				<p class="curri-ul-title">Langues :</p>
+				<ul>
+					<li>Espagnol : niveau A1 (lycée)</li>
+					<li>Anglais : niveau B2 (autonome)</li>
+				</ul>
 			</article>
 			
-			<article id="curri-skill">
+			<article id="curri-skill" >
 				<h1 class="curri-sub-title">Compétences</h1>
 
 				
 				<p class="curri-ul-title">Programmation :</p>
-				<table id="curri-prog">
+				<table id="curri-prog" >
 					<thead class="curri-ul-segment">
 						<tr>
 							<th>Python<br/>19 mois</th>
@@ -124,17 +130,13 @@
 					</tbody>
 				</table>
 				
-				<p class="curri-ul-title">Langues :</p>
-				<ul>
-					<li>Espagnol : niveau A1 (lycée)</li>
-					<li>Anglais : niveau B2 (autonome)</li>
-				</ul>
+				
 				
 				<p class="curri-sub-title">Téléchargement - Liens utiles</p>
 				<div id="curri-download">
-					<a href="CVJOLYSamuel.pdf"><div id="download-pdf"></div></a>
-					<a href="CVJOLYSamuel.odt"><div id="download-odt"></div></a>
-					<a target="blank" href="https://github.com/samuel-joly"><div id="image-git"></div></a>
+					<a href="CVJOLYSamuel.pdf"><div id="download-pdf"></div>CV-PDF</a>
+					<a href="CVJOLYSamuel.odt"><div id="download-odt"></div>CV-ODT</a>
+					<a target="blank" href="https://github.com/samuel-joly"><div id="image-git"></div>Mon git!</a>
 				</div>	
 			</article>
 		</main>

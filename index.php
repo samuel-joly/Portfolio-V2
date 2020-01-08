@@ -31,8 +31,8 @@
 						</div>
 						
 						<article>
-							<h2>Pour toute demande de contact :</h2>
-							<p class="normal-font">Vous pouvez me contacter par <a href="contact.php">Ici</a> ou par mail sur <a href="mailto:samueljoly0@gmail.com">samueljoly0@gmail.com</a></p>
+							<h2>Pour me contacter :</h2>
+							<p class="normal-font">Vous pouvez me contacter par <a href="contact.php">Ici</a> ou par mail sur <a href="mailto:samuel.joly@laplateforme.io">samuel.joly@laplateforme.io</a></p>
 							<div id="contact-dispo">
 								<ul id="contact-dispo-left">
 									<li class="normal-font">Réponse ASAP</li>
