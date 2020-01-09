@@ -65,7 +65,7 @@
 								</div>
 								<div id="cv-article-odt">
 									<a href="CVJOLYSamuel.odt"><div id="cv-odt-img"></div></a>
-									<a href="CVJOLYSamuel.odt">CV en ODT</a>
+									<a href="CVJOLYSamuel.odt" class="cv-article-title">CV en ODT</a>
 								</div>
 							</div>
 						</article>
@@ -110,6 +110,21 @@
 									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
 									<p class="commentaire">Je suis et resterais le premier commentaire</p>
 								</div>
+								
+									<div class="comm"> 
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
+									<p class="commentaire">Je suis et resterais le premier commentaire</p>
+								</div>
+								
+								<div class="comm"> 
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
+									<p class="commentaire">Je suis et resterais le premier commentaire</p>
+								</div>
+								
+								<div class="comm"> 
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
+									<p class="commentaire">Je suis et resterais le premier commentaire</p>
+								</div>
 							
 							</div>
 							
@@ -140,7 +155,7 @@
 							<a href="realisation.php?etudes=true" class="a-btn">Par ici</a>
 						</div>
 						<article>
-							<h2 >Mes réalisation à LaPlateforme :</h2>
+							<h2 >Mes réalisation LaPlateforme :</h2>
 						</article>
 					</div>
 				</div>
@@ -178,10 +193,10 @@
 							
 							<div id="infos-bottom">
 								<ul>
-									<li><strong>Je veux :</strong> Dévelloper mes connaissances dans le domaine professionnel.</li>
+									<li><strong>Je veux :</strong> Dévelloper mes connaissances professionnelles.</li>
 									<li><strong>Je sais :</strong> Apprendre de mes expériences et de mes pairs.</li>
 									<li><strong>Je suis :</strong> Curieux et motivé dans mon travail.</li>
-									<li><strong>Je dois :</strong> Me diversifier dans les champs d'application de la progammation</li>
+									<li><strong>Je dois :</strong> Me diversifier dans ;es champs d'application.</li>
 									<li><strong>Je serais:</strong> Ravis d'apprendre a votre cotés.</li>
 								</ul>
 							</div>
