@@ -35,7 +35,7 @@
 				<p>Baccalauréat série Scientifique (2014) - Marcel-Pagnol</p>
 				<p>L1 Psychologie (2015) - Faculté de lettres Aix-en-Provence</p>
 				<p>L1 Psychologie (2016) - Faculté de lettres Aix-en-Provence</p>
-				<p>Web developpement (2019) - <span class="curri-w">LaPlateforme_ Marseille - En cour</span></p>
+				<p>Web developpement (2019) - <a target="blank" href="www.laplateforme.io" id="curri-w">LaPlateforme_ Marseille</a> - En cour</p>
 				
 				<p class="curri-ul-title">Langues :</p>
 				<ul>

@@ -32,15 +32,15 @@
 						
 						<article>
 							<h2>Pour me contacter :</h2>
-							<p class="normal-font">Vous pouvez me contacter par <a href="contact.php">Ici</a> ou par mail sur <a href="mailto:samuel.joly@laplateforme.io">samuel.joly@laplateforme.io</a></p>
+							<p class="normal-font">Vous pouvez me joindre par <a href="contact.php">Ici</a> ou par mail a <a href="mailto:samuel.joly@laplateforme.io">samuel.joly@laplateforme.io</a></p>
 							<div id="contact-dispo">
-								<ul id="contact-dispo-left">
+								<ul>
 									<li class="normal-font">Réponse ASAP</li>
 									<li class="normal-font">Dispo 24/24-7/7</li>
 								</ul>
 								<ul>
-									<li>Actuellement en recherche d'un projet pro</li>
-									<li>Si vous voulez en parler <a href="contact.php">faites le moi savoir</a></li>
+									<li class="normal-font">Actuellement en recherche d'un projet pro</li>
+									<li class="normal-font">Si vous voulez en parler <a href="contact.php">faites le moi savoir</a></li>
 								</ul>
 							</div>
 						</article>
@@ -58,7 +58,7 @@
 							
 						<article id="cv-article">
 							<h2>Mon cursus personnel et scolaire</h2>
-							<span>
+							<div>
 								<div id="cv-article-pdf">
 									<a href="CVJOLYSamuel.pdf"><div id="cv-pdf-img"></div></a>
 									<a href="CVJOLYSamuel.pdf" class="cv-article-title">CV en PDF</a>
@@ -67,7 +67,7 @@
 									<a href="CVJOLYSamuel.odt"><div id="cv-odt-img"></div></a>
 									<a href="CVJOLYSamuel.odt">CV en ODT</a>
 								</div>
-							</span>
+							</div>
 						</article>
 					
 					</div>					
@@ -164,8 +164,7 @@
 								<div id="social-link">
 									<a target="blank" href="https://www.linkedin.com/in/samuel-joly-170a38156/"><img src="Images/linkedIn.png"/></a>
 									<a target="blank" href="https://github.com/samuel-joly"><img src="Images/gitHub.png"/></a>
-									<a target="blank" href="https://steamcommunity.com/profiles/76561198100216375/"><img src="Images/steam.png"/></a>
-									<a target="blank" href="Azefortwo#3814"><img src="Images/Discord.png"/></a>
+									
 									<a target="blank" href="https://laplateforme.io"><img src="Images/plateforme.png"/></a>
 									<a href="contact.php" id="contact-link">
 										<span id="contact-link-case">?</span>
@@ -184,7 +183,7 @@
 									<li><strong>Je suis :</strong> Curieux et motivé dans mon travail.</li>
 									<li><strong>Je dois :</strong> Me diversifier dans les champs d'application de la progammation</li>
 									<li><strong>Je serais:</strong> Ravis d'apprendre a votre cotés.</li>
-								<ul>
+								</ul>
 							</div>
 						</article>
 					</div>
