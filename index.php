@@ -22,12 +22,13 @@
 		<main>
 			<div id="mainContainer">
 				
-				<div class="grid-item two-long" id="contact">
+				<div class="zone-container">
+					<div class="grid-item two-long" id="contact">
 				
 					<div class="cover">
 						<div class="title-zone">
 							<h1>Contact</h1>
-							<a href="contact.php" class="a-btn">Par ici</a>
+							<!-- <a href="contact.php" class="a-btn">Par ici</a> -->
 						</div>
 						
 						<article>
@@ -48,12 +49,11 @@
 					
 				</div>
 				
-				<div class="grid-item" id="curriculum">
+					<div class="grid-item" id="curriculum">
 
 					<div class="cover">
 						<div class="title-zone">
 							<h1>Curriculum Vitæ</h1>
-							<a href="curriculum.php" class="a-btn">Par ici</a>
 						</div>
 							
 						<article id="cv-article">
@@ -73,79 +73,10 @@
 					</div>					
 					
 				</div>
-				
-				<div class="grid-item two-height" id="livre-or">
-					<div class="cover">
-						<div class="title-zone">
-							<h1>Livre d'Or</h1>
-							<a href="livreOr.php" class="a-btn">Par ici</a>
-						</div>
-						
-						<article>
-							<h2 id="livre-or-title">Les derniers messages</h2>
-							
-							<div id="livre-or-commentaires">
-							
-								<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-								
-								<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-								
-								<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-								
-								<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-								
-								<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-							
-							</div>
-							
-						</article>
-					</div>
-					
 				</div>
 				
-				<div class="grid-item" id="real-perso">
-					
-					<div class="cover">
-						<div class="title-zone">
-							<h1>Réalisation Perso</h1>
-							<a href="realisation.php?perso=true" class="a-btn">Par ici</a>
-						</div>
-						
-						<article>
-							<h2>Mes réalisation extra-scolaire :</h2>
-						</article>
-					</div>
-					
-				</div>
-				
-				<div class="grid-item" id="real-etude">
-					<div class="cover">						
-						<div class="title-zone">
-							<h1>Réalisation Etudes</h1>
-							<a href="realisation.php?etudes=true" class="a-btn">Par ici</a>
-						</div>
-						<article>
-							<h2 >Mes réalisation à LaPlateforme :</h2>
-						</article>
-					</div>
-				</div>
-				
-				<div class="grid-item two-height two-long" id="infos-perso">
+				<div class="zone-container">
+					<div class="grid-item two-height two-long" id="infos-perso">
 					<div class="cover">
 						<h1>Carte de visite</h1>
 						
@@ -188,12 +119,83 @@
 						</article>
 					</div>
 				</div>
-				
-				<div class="grid-item" id="actualite">
+		
+					<div class="grid-item two-height" id="livre-or">
 					<div class="cover">
-						<h1>Travail en cour</h1>
+						<div class="title-zone">
+							<h1>Livre d'Or</h1>
+						</div>
+						
 						<article>
+							<h2 id="livre-or-title">Les derniers messages</h2>
+							
+							<div id="livre-or-commentaires">
+							
+								<div class="comm"> 
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
+									<p class="commentaire">Je suis et resterais le premier commentaire</p>
+								</div>
+								
+								<div class="comm"> 
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
+									<p class="commentaire">Je suis et resterais le premier commentaire</p>
+								</div>
+								
+								<div class="comm"> 
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
+									<p class="commentaire">Je suis et resterais le premier commentaire</p>
+								</div>
+								
+								<div class="comm"> 
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
+									<p class="commentaire">Je suis et resterais le premier commentaire</p>
+								</div>
+								
+								<div class="comm"> 
+									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
+									<p class="commentaire">Je suis et resterais le premier commentaire</p>
+								</div>
+							
+							</div>
+							
 						</article>
+					</div>
+					
+				</div>
+				</div>
+				
+				<div class="zone-container">
+					<div class="grid-item" id="real-perso">
+						
+						<div class="cover">
+							<div class="title-zone">
+								<h1>Réalisation Perso</h1>
+							</div>
+							
+							<article>
+								<h2>Mes réalisation extra-scolaire :</h2>
+							</article>
+						</div>
+						
+					</div>
+					
+					<div class="grid-item" id="real-etude">
+						<div class="cover">						
+							<div class="title-zone">
+								<h1>Réalisation Etudes</h1>
+							</div>
+							<article>
+								<h2 >Mes réalisation à LaPlateforme :</h2>
+							</article>
+						</div>
+					</div>
+			
+					<div class="grid-item" id="actualite">
+						<div class="cover">
+							<h1>Travail en cour</h1>
+							<article>
+							</article>
+						</div>
 					</div>
 				</div>
 			</div>
