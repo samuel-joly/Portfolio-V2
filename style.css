@@ -131,32 +131,27 @@ header nav a:nth-child(1):before
 /*-------------------------------------------------------GRID---------------------------------------------------------------*/
 #mainContainer
 {
-	display:grid;
-	grid-template-columns:auto auto auto;
-	grid-column-gap:8px;
-	grid-row-gap:8px;
+	display:flex;
+	flex-direction:column;
 	margin-top:50px;
+	background: #ffffff80;
+	padding:5px;
+	
+}
+
+
+.zone-container {
+	display:flex;
+	justify-content:space-center;
 }
 
 .grid-item
 {
 	opacity:1;
-	height:220px;
-	width:350px;
-	
-	transition:all 0.2s ease;
 	font-family: modern;
-	color:white;
-	background: radial-gradient(circle farthest-side at 100% 100%, rgb(255, 255, 255) 0%, rgb(138, 138, 141) 40%, rgb(149, 153, 157) 100%);
-	border:2px solid black;
-}
-
-.two-long{	grid-column:span 2;	width:708px;  }
-.two-height{  grid-row:span 2;	height:440px;  }
-
-.grid-item:hover article, .grid-item:hover .a-btn
-{
-	opacity:1;
+	color:black;
+	margin:5px;
+	/* border:2px dashed grey; */
 }
 
 .cover
@@ -164,7 +159,6 @@ header nav a:nth-child(1):before
 	width:100%;
 	height:100%;
 	transition:all 0.4s ease;
-	opacity:1;
 }
 
 .grid-item h1
@@ -172,6 +166,7 @@ header nav a:nth-child(1):before
 	font-size:35px;
 	margin-left:5px;
 	margin-top:0px;
+	
 }
 
 .grid-item article 
@@ -210,15 +205,15 @@ header nav a:nth-child(1):before
 .a-btn
 {
 	background:black;
-	padding:5px;
+	padding:10px;
 	height:17px;
 	color:white;
 	text-decoration:none;
+	font-size:20px;
 	
 	position:relative;
-	top:2px;
+	top:3px;
 	right:3px;
-	opacity:0;
 	transition:opacity 0.4s ease;
 }
 
@@ -238,80 +233,48 @@ header nav a:nth-child(1):before
 }
 /*--------------------------------------------------------INDEX SQARE------------------------------------------------------------*/
 
-/* #contact .cover */
-/* { */
-	/* background:#ffc033; */
-/* } */
+
+#contact 
+{
+	width:50%;
+}
 
 
-/* #curriculum .cover */
-/* { */
-	/* background:#26457c; */
-/* } */
-
-
-/* #livre-or .cover */
-/* { */
+#curriculum 
+{
 	
-	/* background:#2cca47; */
-/* } */
-
-/* #real-perso .cover */
-/* { */
-	/* background:#d53d3d; */
-/* } */
-
-/* #real-etude .cover */
-/* { */
-	/* background:#ab0aae; */
-/* } */
-
-/* #infos-perso .cover */
-/* { */
-	/* background:#413ef8; */
-/* } */
-
-/* #actualite .cover */
-/* { */
-	/* background-image:url("Images/actu1.jpg"); */
-	/* background-size:100% 100%; */
-/* } */
-
-#contact .cover:hover
-{
-	background:#9b742c00;
 }
 
-#curriculum .cover:hover
+#curriculum .title-zone
 {
-	background:#26457c00;
+	margin-bottom:10px;
 }
 
-#livre-or .cover:hover
+#livre-or 
 {
-	background:#ff600000;
+	
 }
 
-#real-perso .cover:hover
+#real-perso 
 {
-	background:#d53d3d00;
+	
 }
 
-#real-etude .cover:hover
+#real-etude 
 {
-	background:#ab0aae00;
+
 }
 
-#infos-perso .cover:hover
+#infos-perso 
 {
-	background:#413ef800;
+
 }
- 
- #actualite .cover:hover
+
+#actualite
 {
-	background-image:url("Images/actu.jpg");
-	background-size:100% 100%;		
+
 }
+
 
 
 /*---------------------------------------------CONTACT---------------------------------------------------------*/
@@ -319,19 +282,13 @@ header nav a:nth-child(1):before
 #contact-dispo 
 {
 	display:flex;
-	justify-content:space-between;
-	
-}
-
-#contact-dispo ul:nth-child(2)
-{
-	border:2px solid grey;
+	justify-content:flex-start;
+	align-items:center;
 }
 
 #contact-dispo ul:nth-child(1)
 {
-	height:50px;
-	padding-right:25px;
+	width:16%;
 	border-right:1px solid;
 	border-image:linear-gradient(to top, transparent, black, transparent)  1 100%;
 }
