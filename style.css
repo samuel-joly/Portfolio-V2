@@ -140,22 +140,19 @@ header nav a:nth-child(1):before
 
 .grid-item
 {
-	opacity:0.8;
+	opacity:1;
 	height:220px;
 	width:350px;
 	
 	transition:all 0.2s ease;
 	font-family: modern;
 	color:white;
+	background: radial-gradient(circle farthest-side at 100% 100%, rgb(255, 255, 255) 0%, rgb(138, 138, 141) 40%, rgb(149, 153, 157) 100%);
+	border:2px solid black;
 }
 
 .two-long{	grid-column:span 2;	width:708px;  }
 .two-height{  grid-row:span 2;	height:440px;  }
-
-.grid-item:hover {
-	background: radial-gradient(circle farthest-side at 100% 100%, rgb(255, 255, 255) 0%, rgb(138, 138, 141) 40%, rgb(149, 153, 157) 100%);
-	opacity:1;
-}
 
 .grid-item:hover article, .grid-item:hover .a-btn
 {
@@ -179,7 +176,7 @@ header nav a:nth-child(1):before
 
 .grid-item article 
 {
-	opacity:0;
+	opacity:1;
 	margin-left:5px;
 	transition:all 0.2s ease;
 	color:black;
@@ -241,44 +238,44 @@ header nav a:nth-child(1):before
 }
 /*--------------------------------------------------------INDEX SQARE------------------------------------------------------------*/
 
-#contact .cover
-{
-	background:#ffc033;
-}
+/* #contact .cover */
+/* { */
+	/* background:#ffc033; */
+/* } */
 
 
-#curriculum .cover
-{
-	background:#26457c;
-}
+/* #curriculum .cover */
+/* { */
+	/* background:#26457c; */
+/* } */
 
 
-#livre-or .cover
-{
+/* #livre-or .cover */
+/* { */
 	
-	background:#2cca47;
-}
+	/* background:#2cca47; */
+/* } */
 
-#real-perso .cover
-{
-	background:#d53d3d;
-}
+/* #real-perso .cover */
+/* { */
+	/* background:#d53d3d; */
+/* } */
 
-#real-etude .cover
-{
-	background:#ab0aae;
-}
+/* #real-etude .cover */
+/* { */
+	/* background:#ab0aae; */
+/* } */
 
-#infos-perso .cover
-{
-	background:#413ef8;
-}
+/* #infos-perso .cover */
+/* { */
+	/* background:#413ef8; */
+/* } */
 
-#actualite .cover
-{
-	background-image:url("Images/actu1.jpg");
-	background-size:100% 100%;
-}
+/* #actualite .cover */
+/* { */
+	/* background-image:url("Images/actu1.jpg"); */
+	/* background-size:100% 100%; */
+/* } */
 
 #contact .cover:hover
 {
@@ -322,13 +319,13 @@ header nav a:nth-child(1):before
 #contact-dispo 
 {
 	display:flex;
-	justify-content:space-evenly;
+	justify-content:space-between;
 	
 }
 
 #contact-dispo ul:nth-child(2)
 {
-	
+	border:2px solid grey;
 }
 
 #contact-dispo ul:nth-child(1)
