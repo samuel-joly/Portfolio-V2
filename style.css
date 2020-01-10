@@ -6,7 +6,7 @@
 
 body
 {
-	background:linear-gradient(50deg,#301537, #9e59dd);
+	background:linear-gradient(50deg,#DDB4FF,#A9A8FF);
 	background-size:100% 140%;
 	
 	display:flex;
@@ -32,14 +32,14 @@ header
 #header-title
 {
 	margin:0px;
-	font-size:17px;
+	font-size:23px;
 	color:black;
 	text-decoration:none;
 }
 
 #header-title span
 {
-	font-size:14px;
+	font-size:19px;
 }
 
 #header-title:hover:not(span)
@@ -60,7 +60,7 @@ header nav a
 	text-decoration:none;
 	display:block;
 	transition:all 0.3s ease;
-	font-size:17px;
+	font-size:23px;
 	height:20px;
 }
 
@@ -68,8 +68,8 @@ header nav a div
 {
 	background-image:url("Images/home.png");
 	background-size:cover;
-	width:15px;
-	height:14px;
+	width:20px;
+	height:19px;
 	margin-top:2px;
 	transition:all 0.3s ease;
 }
@@ -81,7 +81,7 @@ header nav a div:hover
 
 header nav a:hover
 {
-	color:white;
+	color:#ffffff;
 }
 
 header nav a:before
@@ -90,7 +90,7 @@ header nav a:before
 	height:0.5px;
 	width:52px;
 	position:absolute;
-	top:25px;
+	top:30px;
 	
 	background:black;
 	transition:all 0.2s ease;
@@ -98,33 +98,33 @@ header nav a:before
 
 header nav a:hover:before
 {
-	background:white;
+	background:#ffffff;
 	top:9px;
 }
 
 header nav a:nth-child(2):before
 {
-	width:52px;
+	width:76px;
 }
 
 header nav a:nth-child(1):before
 {
-	width:83px;
+	width:112px;
 }
 
  header nav a:nth-child(3):before
  {
-	width:73px;
+	width:96px;
  }
  
  header nav a:nth-child(4):before
  {
-	width:23px; 
+	width:32px; 
  }
  
  header nav a:nth-child(5):before
  {
-	width:15px;
+	width:20px;
  }
  
 
@@ -245,35 +245,35 @@ header nav a:nth-child(1):before
 
 #contact .cover
 {
-	background:#ffc033;
+	background:#ddb8ff;
 }
 
 
 #curriculum .cover
 {
-	background:#26457c;
+	background:#acc6ff;
 }
 
 
 #livre-or .cover
 {
 	
-	background:#2cca47;
+	background:#a1a6ff;
 }
 
 #real-perso .cover
 {
-	background:#d53d3d;
+	background:#b09aff;
 }
 
 #real-etude .cover
 {
-	background:#ab0aae;
+	background:#7d7bff;
 }
 
 #infos-perso .cover
 {
-	background:#413ef8;
+	background:#9dd5ff;
 }
 
 #actualite .cover
@@ -564,40 +564,52 @@ header nav a:nth-child(1):before
 
 #contactMain
 {	
-	justify-content:center;
-	flex-direction:column;
-	align-items:stretch;
-	margin:auto;
 	width:40%;
+	margin:auto;
+	display:flex;
+	flex-direction:column;
+	margin-top:70px;
 }
 
 #contact-form
 {
-	margin-left:-10px;
-	margin-top:10px;
 	display:flex;
 	flex-direction:column;
-	justify-content:space-between;
+	margin-left:-20px;
+	margin:auto;
 }
 
+#contactTitle
+{
+	margin:auto;
+	margin-left:10px;
+}
 
-#contactTitle h1
+#contactTitle p,#contactTitle h1
 {
 	text-align:center;
 }
 
+input, textarea
+{
+	margin-top:30px;
+}
+
 .inputZone label
 {
-	display:flex;
-	flex-direction:row;
 	
 	float:right;
 	font-size:23px;
 	color:rgba(250,250,250,0.7);
 	
-	transform:translate(0px, -35px);
+	transform:translate(-150px, 37px);
 	
 	transition:transform 0.5s ease;
+}
+
+.inputZone
+{
+	margin:0px;
 }
 
 .absol-input
@@ -625,7 +637,8 @@ header nav a:nth-child(1):before
 
 #name-zone
 {
-	padding-bottom:20px;
+	display:flex;
+	margin-bottom:-10px;
 }
 .absol-input:focus
 {
@@ -634,12 +647,12 @@ header nav a:nth-child(1):before
 
 .absol-input:focus:not(textarea)~label
 {
-	transform:translate(0px, -70px);
+	transform:translate(-150px, 0px);
 }
 
-textarea:focus~label
+textarea:focus~#textarea
 {
-	transform:translate(0px, -4px);
+	transform:translate(-150px, 0px);
 }
 
 .inputZone input[type="submit"], .inputZone input[type="reset"]
@@ -705,22 +718,22 @@ textarea:focus~label
 
 .name~label
 {
-	transform:translate(-20px, -37px);
+	transform:translate(-25px, -37px);
 }
 
 .name:focus~label
 {
-	transform:translate(-20px,-67px);
+	transform:translate(-25px,-67px);
+}
+
+#textarea
+{
+	transform:translate(-150px,-30px);
 }
 
 textarea:focus
 {
 	background:rgba(0,0,0,0.5);
-}
-
-textarea
-{
-	margin-top:-20px;
 }
 
 /*---------------------------------------CURRICULUM------------------------------------ */
@@ -767,7 +780,7 @@ textarea
 {
 	content:"";
 	height:0.5px;
-	width:165px;
+	width:170px;
 	position:absolute;
 	background:white;
 	transition:all 0.2s ease;
@@ -777,7 +790,7 @@ textarea
 #curri-w:hover:before
 {
 	background:black;
-	margin-top:2.5px;
+	margin-top:3px;
 }
 
 #curri-main article a

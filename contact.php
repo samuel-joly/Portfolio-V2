@@ -27,8 +27,8 @@
 			</div>
 			
 			<form action="index.php?contactDone=true" method="post" id="contact-form">
-				<div id="name-zone">
 				
+				<div id="name-zone">
 					<div class="inputZone">
 						<input type="text" name="prenom" class="name"/>
 						<label for="prenom" class="label-move">Prénom</label>
@@ -37,8 +37,7 @@
 					<div class="inputZone">
 						<input type="text" name="nom" class="name"/>
 						<label for="nom" class="label-move">Nom</label>
-					</div>
-				
+					</div>				
 				</div>
 				
 				<div class="inputZone" id="mail">
@@ -53,7 +52,7 @@
 				
 				<div class="inputZone">
 					<textarea cols="50" rows="4" class="absol-input"></textarea>
-					<label for="message" class="label-move">Votre message</label>
+					<label for="message" class="label-move" id="textarea">Votre message</label>
 				</div>
 				
 				<div class="inputZone controls">
