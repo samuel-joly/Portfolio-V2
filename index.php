@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<title>Portfolio - Joly Samuel</title>
+		<title>CV - Joly Samuel</title>
 	</head>
 
-	<body>
+	<body id="curri-body">
 		<header>
 			<a href="index.php" id="header-title">Samuel Joly<br/><span>Portfolio</span></a>
 			<nav>
@@ -19,197 +19,128 @@
 			</nav>
 		</header>
 
-		<main>
-			<div id="mainContainer">
+		<main id="curri-main">
+			
+			<h1 id="curri-title">Curriculum Vitae</h1>
+			<article id="curri-presentation">
+				<p>JOLY Samuel</p>
+				<p>9 septembre 1996 – 24 ans</p>
+				<p>27 boulevard Frédéric Chevillon 13011 Marseille</p>
+				<p>Tel: 0628766072.</p>
+				<p>Mail: <a id="curri-mail" href="mailto:samueljoly0@gmail.com">samueljoly0@gmail.com</a></p>
+			</article>
+			
+			<article id="curri-formation">
+				<h1 class="curri-sub-title">Formation</h1>
+				<p>Baccalauréat série Scientifique (2014) - Marcel-Pagnol</p>
+				<p>L1 Psychologie (2015) - Faculté de lettres Aix-en-Provence</p>
+				<p>L1 Psychologie (2016) - Faculté de lettres Aix-en-Provence</p>
+				<p>Web developpement (2019) - <a target="blank" href="www.laplateforme.io" id="curri-w">LaPlateforme_ Marseille</a> - En cour</p>
 				
-				<div class="grid-item two-long" id="contact">
-				
-					<div class="cover">
-						<div class="title-zone">
-							<h1>Contact</h1>
-							<a href="contact.php" class="a-btn">Par ici</a>
-						</div>
-						
-						<article>
-							<p class="normal-font">Vous pouvez me joindre par <a href="contact.php">Ici</a> ou par mail a <a href="mailto:samuel.joly@laplateforme.io">samuel.joly@laplateforme.io</a></p>
-							<div id="contact-dispo">
-								<ul>
-									<li class="normal-font">Réponse ASAP</li>
-									<li class="normal-font">Dispo 24/24-7/7</li>
-								</ul>
-								<ul>
-									<li class="normal-font">Actuellement en recherche d'un projet pro</li>
-									<li class="normal-font">Si vous voulez en parler <a href="contact.php">faites le moi savoir</a></li>
-								</ul>
-							</div>
-						</article>
-					</div>
-					
-				</div>
-				
-				<div class="grid-item" id="curriculum">
+				<p class="curri-ul-title">Langues :</p>
+				<ul>
+					<li>Espagnol : niveau A1 (lycée)</li>
+					<li>Anglais : niveau B2 (autonome)</li>
+				</ul>
+			</article>
+			
+			<article id="curri-skill" >
+				<h1 class="curri-sub-title">Compétences</h1>
 
-					<div class="cover">
-						<div class="title-zone">
-							<h1>Curriculum Vitæ</h1>
-							<a href="curriculum.php" class="a-btn">Par ici</a>
-						</div>
-							
-						<article id="cv-article">
-							<div>
-								<div id="cv-article-pdf">
-									<a href="CVJOLYSamuel.pdf"><div id="cv-pdf-img"></div></a>
-									<a href="CVJOLYSamuel.pdf" class="cv-article-title">CV en PDF</a>
-								</div>
-								<div id="cv-article-odt">
-									<a href="CVJOLYSamuel.odt"><div id="cv-odt-img"></div></a>
-									<a href="CVJOLYSamuel.odt" class="cv-article-title">CV en ODT</a>
-								</div>
-							</div>
-						</article>
-					
-					</div>					
-					
-				</div>
 				
-				<div class="grid-item two-height" id="livre-or">
-					<div class="cover">
-						<div class="title-zone">
-							<h1>Livre d'Or</h1>
-							<a href="livreOr.php" class="a-btn">Par ici</a>
-						</div>
+				<p class="curri-ul-title">Programmation :</p>
+				<table id="curri-prog" >
+					<thead class="curri-ul-segment">
+						<tr>
+							<th>Python<br/>19 mois</th>
+							<th>HTLM / CSS<br/>16 mois</th>
+							<th>PHP<br/>2 mois</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<td>
+								<a class="curri-ul-project" id="bc" href="https://github.com/aze-fortwo/Bloc-Note">
+									<div class="project-logo" id="blocnote"></div>
+									Notepad
+								</a>
+							</td>
+							
+							<td>
+								<a class="curri-ul-project" id="su" target="blank" href="SushiRestau/Index.html">
+									<div class="project-logo" id="sushi"></div>
+									Sushi Restaurant
+								</a>
+							</td>
+							
+							<td>
+								<a class="curri-ul-project" id="li" target="blank" href="Livre-or/">
+									<div class="project-logo" id="curri-livreor"></div>
+									Livre-or
+								</a>
+							</td>
+						</tr>
 						
-						<article>
+						<tr>						
+							<td>
+								<a class="curri-ul-project"	id="ag" href="https://github.com/aze-fortwo/Advanced-Agenda">
+									<div class="project-logo" id="agenda"></div>
+									Agenda
+								</a>
+							</td>
 							
-							<div id="livre-or-commentaires">
+							<td>
+								<a class="curri-ul-project" id="po" target="blank" href="index.php">
+									<div class="project-logo" id="portfolio"></div>
+									Portfolio
+								</a>
+							</td>
 							
-								<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-								
-								<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-								
-								<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-								
-								<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-								
-								<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-								
-									<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-								
-								<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-								
-								<div class="comm"> 
-									<p class="auteur"><span>De Samuel</span><span>le 16/12/19</span></p>
-									<p class="commentaire">Je suis et resterais le premier commentaire</p>
-								</div>
-							
-							</div>
-							
-						</article>
-					</div>
-					
-				</div>
-				
-				<div class="grid-item" id="real-perso">
-					
-					<div class="cover">
-						<div class="title-zone">
-							<h1>Réalisation Perso</h1>
-							<a href="realisation.php?perso=true" class="a-btn">Par ici</a>
-						</div>
+							<td>
+								<a class="curri-ul-project" id="bde" target="blank" href="BDE/">
+									<div class="project-logo" id="curri-bde"></div>
+									Site BDE LaPlateforme_
+								</a>
+							</td>
+						</tr>
 						
-						<article>
+						<tr>
+							<td>
+								<a class="curri-ul-project" id="pw" href="https://github.com/aze-fortwo/Password-Manager">
+									<div class="project-logo" id="password-manager"></div>
+									Password
+								</a>
+							</td>
 							
-						</article>
-					</div>
-					
-				</div>
-				
-				<div class="grid-item" id="real-etude">
-					<div class="cover">						
-						<div class="title-zone">
-							<h1>Réalisation Ecole</h1>
-							<a href="realisation.php?etudes=true" class="a-btn">Par ici</a>
-						</div>
-						<article>
-						</article>
-					</div>
-				</div>
-				
-				<div class="grid-item two-height two-long" id="infos-perso">
-					<div class="cover">
-						<h1>Carte de visite</h1>
-						
-						<article>
-							<div id="infos-top">
-								<div id="infos-img">
-									<img src="Images/moi.png" id="moi"/>
-									<ul>
-										<li>Html-CSS <span>1 ans</span></li>
-										<li>Python <span>2 ans</span></li>
-										<li>PHP-JS <span>3 mois</span></li>
-										<li>Algorithmie <span>2 ans</span></li>
-									</ul>
-								</div>
-								
-								<div id="social-link">
-									<a target="blank" href="https://www.linkedin.com/in/samuel-joly-170a38156/"><img src="Images/linkedIn.png"/></a>
-									<a target="blank" href="https://github.com/samuel-joly"><img src="Images/gitHub.png"/></a>
-									
-									<a target="blank" href="https://laplateforme.io"><img src="Images/plateforme.png"/></a>
-									<a href="contact.php" id="contact-link">
-										<span id="contact-link-case">?</span>
-										<p id="contact-link-text">
-											<img src="Images/contactarrow.png"/>
-											Devenons partenaires
-										</p>
-									</a>
-								</div>
-							</div>
+							<td>
+								<a class="curri-ul-project" id="gi" target="blank" href="https://github.com/samuel-joly?utf8=✓&tab=repositories&q=&type=&language=html">
+									<div class="project-logo" id="curri-github"></div>
+									Plus sur GitHub
+								</a>
+							</td>
 							
-							<div id="infos-bottom">
-								<ul>
-									<li><strong>Je veux :</strong> Dévelloper mes connaissances professionnelles.</li>
-									<li><strong>Je sais :</strong> Apprendre de mes expériences et de mes pairs.</li>
-									<li><strong>Je suis :</strong> Curieux et motivé dans mon travail.</li>
-									<li><strong>Je dois :</strong> Me diversifier dans ;es champs d'application.</li>
-									<li><strong>Je serais:</strong> Ravis d'apprendre a votre cotés.</li>
-								</ul>
-							</div>
-						</article>
-					</div>
-				</div>
+							<td>
+								<a class="curri-ul-project" id="res" target="blank" href="reservation/">
+									<div class="project-logo" id="curri-res"></div>
+									Réservation LaPlateforme_
+								</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
 				
-				<div class="grid-item" id="actualite">
-					<div class="cover">
-						<h1>Travail en cour</h1>
-						<article>
-						</article>
-					</div>
-				</div>
-			</div>
+				
+				
+				<p class="curri-sub-title">Téléchargement - Liens utiles</p>
+				<div id="curri-download">
+					<a href="CVJOLYSamuel.pdf"><div id="download-pdf"></div>CV-PDF</a>
+					<a href="CVJOLYSamuel.odt"><div id="download-odt"></div>CV-ODT</a>
+					<a target="blank" href="https://github.com/samuel-joly"><div id="image-git"></div>Mon git!</a>
+				</div>	
+			</article>
 		</main>
-
+	
 		<footer>
 		</footer>
 	</body>
