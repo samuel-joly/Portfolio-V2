@@ -31,7 +31,6 @@
 						</div>
 						
 						<article>
-							<h2>Pour me contacter :</h2>
 							<p class="normal-font">Vous pouvez me joindre par <a href="contact.php">Ici</a> ou par mail a <a href="mailto:samuel.joly@laplateforme.io">samuel.joly@laplateforme.io</a></p>
 							<div id="contact-dispo">
 								<ul>
@@ -57,7 +56,6 @@
 						</div>
 							
 						<article id="cv-article">
-							<h2>Mon cursus personnel et scolaire</h2>
 							<div>
 								<div id="cv-article-pdf">
 									<a href="CVJOLYSamuel.pdf"><div id="cv-pdf-img"></div></a>
@@ -82,7 +80,6 @@
 						</div>
 						
 						<article>
-							<h2 id="livre-or-title">Les derniers messages</h2>
 							
 							<div id="livre-or-commentaires">
 							
@@ -142,7 +139,7 @@
 						</div>
 						
 						<article>
-							<h2>Mes réalisation extra-scolaire :</h2>
+							
 						</article>
 					</div>
 					
@@ -151,11 +148,10 @@
 				<div class="grid-item" id="real-etude">
 					<div class="cover">						
 						<div class="title-zone">
-							<h1>Réalisation Etudes</h1>
+							<h1>Réalisation Ecole</h1>
 							<a href="realisation.php?etudes=true" class="a-btn">Par ici</a>
 						</div>
 						<article>
-							<h2 >Mes réalisation LaPlateforme :</h2>
 						</article>
 					</div>
 				</div>
